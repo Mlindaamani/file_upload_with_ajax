@@ -1,0 +1,80 @@
+body {
+  background-color: #120720;
+}
+
+main {
+  margin: 50px auto;
+  text-align: center;
+}
+
+#data {
+  color: #4caf50;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+}
+
+#log {
+  display: block;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 8px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.progress-fill {
+  width: 0%;
+  height: 30%;
+  margin-top: 40px;
+  background-color: #4caf50;
+  transition: width 0.5s ease-in-out;
+}
+
+#file {
+  display: none;
+}
+
+.choose-file {
+  margin: 30px;
+}
+
+.container {
+  width: 30%;
+  height: 20%;
+  display: inline-block;
+  padding: 40px;
+}
+
+button {
+  padding: 16px;
+  border-radius: 8px;
+  width: 10%;
+  background-color: green;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  width: 30%;
+  cursor: pointer;
+}
+
+label[for="file"] {
+  background-color: green;
+  padding: 20px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 20%;
+  display: inline-block;
+  letter-spacing: 8px;
+}
+
+h3 {
+  color: #0ef;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 8px;
+  font-size: 30px;
+  margin-top: 200px;
+}
